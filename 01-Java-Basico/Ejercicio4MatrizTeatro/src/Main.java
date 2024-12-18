@@ -4,9 +4,12 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-//Crea un programa en Java que represente un mapa de asientos en una matriz de 5x5 y ten en cuenta lo siguiente:
+//Crea un programa en Java que represente un mapa de asientos en una matriz de 5x5
+        System.out.println(" ----Bienvenido al sistema de reservación de asientos del Teatros----");
         Scanner teclado = new Scanner(System.in);
         char[][] asientos = new char[5][5];
+        System.out.println("       Cargando asientos..... ");
+
 
         // hacer la matriz
         for (int i = 0; i < 5; i++) {
@@ -20,7 +23,9 @@ public class Main {
         while (!finalizar) {
             // Mostrar el mapa de asientos
             System.out.println("Mapa de asientos:");
+            System.out.println("  1 2 3 4 5"); // Números de columna para facilitar lectura
             for (int i = 0; i < 5; i++) {
+                System.out.print((i + 1) + " "); // Número de fila ajustado para el usuario
                 for (int j = 0; j < 5; j++) {
                     System.out.print(asientos[i][j] + " ");
                 }
