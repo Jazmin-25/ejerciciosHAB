@@ -1,0 +1,9 @@
+com\softek\restaurante\logica\Platillo_.class
+com\softek\restaurante\persistencia\exceptions\IllegalOrphanException.class
+com\softek\restaurante\persistencia\exceptions\NonexistentEntityException.class
+com\softek\restaurante\persistencia\PlatilloJpaController.class
+com\softek\restaurante\Restaurante.class
+com\softek\restaurante\persistencia\ControladoraPersistencia.class
+com\softek\restaurante\logica\Platillo.class
+com\softek\restaurante\logica\Controladora.class
+com\softek\restaurante\persistencia\exceptions\PreexistingEntityException.class
