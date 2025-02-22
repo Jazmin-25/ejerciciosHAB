@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaction xmlns="http://www.w3schools.com" transactionName="WIKJT010" application="WIKJ" version="01" country="MX" language="ES">
+	<paramsIn>
+		<dto order="1" name="DtoIn" mandatory="0" package="com.bbva.wikj.dto.ejemplo.DtoIn" artifactId="WIKJC010">
+			<parameter order="1" name="firstName" mandatory="0" type="String" size="999"/>
+			<parameter order="2" name="lastName" mandatory="0" type="String" size="999"/>
+			<dto order="3" name="IdentityDocuments" mandatory="0" package="com.bbva.wikj.dto.ejemplo.IdentityDocuments" artifactId="WIKJC010"/>
+		</dto>
+	</paramsIn>
+	<paramsOut>
+		<dto order="1" name="DtoOut" mandatory="0" package="com.bbva.wikj.dto.ejemplo.DtoOut" artifactId="WIKJC010" >
+			<parameter order="1" name="firstName" mandatory="0" type="String" size="999"/>
+			<parameter order="2" name="lastName" mandatory="0" type="String" size="999"/>
+			<dto order="3" name="IdentityDocuments" mandatory="0" package="com.bbva.wikj.dto.ejemplo.IdentityDocuments" artifactId="WIKJC010"/>
+		</dto>
+	</paramsOut>
+	<description>transaction</description>
+</transaction>
